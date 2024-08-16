@@ -17,47 +17,21 @@ Link al Client Web di Music Player: [(link)](https://github.com/vittorioPiotti/M
 | **Name**: getArtists<br>**Endpoint**: [`type=home&method=getArtists&listIds=${encodeURIComponent(resultStr)}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=home&method=getArtists&listIds)<br>**Type**: `GET`<br>**Parametri**: `listIds=${encodeURIComponent(resultStr)}`<br>**Descrizione**: Ottiene la lista degli artisti specificati. |
 
 
-### API ARTIST
 
 
-### API MUSIC
+| API MUSIC | 
+|-----------| 
+| **Name**: getMusic<br>**Endpoint**: [`type=music&method=getMusic&idMusic=${elementId}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=music&method=getMusic&idMusic=3)<br>**Type**: `GET`<br>**Parametri**: `idMusic=${elementId}`<br>**Descrizione**: Ottiene i dati di una specifica canzone. |
+| **Name**: getMusicMin<br>**Endpoint**: [`type=music&method=getMusicMin&idMusic=${elementId}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=music&method=getMusicMin&idMusic=2)<br>**Type**: `GET`<br>**Parametri**: `idMusic=${elementId}`<br>**Descrizione**: Ottiene dati ridotti di una specifica canzone. |
 
-### getMusic
-- **Endpoint**: [`type=music&method=getMusic&idMusic=${elementId}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=music&method=getMusic&idMusic=3)
-- **Type**: `GET`
-- **Parametri**: `idMusic=${elementId}`
-- **Descrizione**: Ottiene i dati di una specifica canzone.
 
-### getMusicMin
-- **Endpoint**: [`type=music&method=getMusicMin&idMusic=${elementId}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=music&method=getMusicMin&idMusic=2)
-- **Type**: `GET`
-- **Parametri**: `idMusic=${elementId}`
-- **Descrizione**: Ottiene dati ridotti di una specifica canzone.
 
-### getAllArtistData
-- **Endpoint**: [`type=artist&method=getAllArtistData&idArtist=${elementId}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=artist&method=getAllArtistData&idArtist=12)
-- **Type**: `GET`
-- **Parametri**: `idArtist=${elementId}`
-- **Descrizione**: Ottiene tutti i dati di un artista specifico.
-
-### getArtist
-- **Endpoint**: [`type=artist&method=getArtist&idArtist=${elementId}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=artist&method=getArtist&idArtist=1)
-- **Type**: `GET`
-- **Parametri**: `idArtist=${elementId}`
-- **Descrizione**: Ottiene i dati di un artista specifico.
-
-### getAlbums
-- **Endpoint**: [`type=artist&method=getAlbums&idArtist=${elementId}&listIds=${resultStr}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=artist&method=getAlbums&idArtist=12&listIds=)
-- **Type**: `GET`
-- **Parametri**: `idArtist=${elementId}`, `listIds=${resultStr}`
-- **Descrizione**: Ottiene la lista degli album di un artista.
-
-### getSingles
-- **Endpoint**: [`type=artist&method=getSingles&idArtist=${elementId}&listIds=${resultStr}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=artist&method=getSingles&idArtist=6&listIds=)
-- **Type**: `GET`
-- **Parametri**: `idArtist=${elementId}`, `listIds=${resultStr}`
-- **Descrizione**: Ottiene la lista dei singoli di un artista.
-
+| API ARTIST | 
+|------------| 
+| **Name**: getAllArtistData<br>**Endpoint**: [`type=artist&method=getAllArtistData&idArtist=${elementId}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=artist&method=getAllArtistData&idArtist=12)<br>**Type**: `GET`<br>**Parametri**: `idArtist=${elementId}`<br>**Descrizione**: Ottiene tutti i dati di un artista specifico. |
+| **Name**: getArtist<br>**Endpoint**: [`type=artist&method=getArtist&idArtist=${elementId}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=artist&method=getArtist&idArtist=1)<br>**Type**: `GET`<br>**Parametri**: `idArtist=${elementId}`<br>**Descrizione**: Ottiene i dati di un artista specifico. |
+| **Name**: getAlbums<br>**Endpoint**: [`type=artist&method=getAlbums&idArtist=${elementId}&listIds=${resultStr}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=artist&method=getAlbums&idArtist=12&listIds=)<br>**Type**: `GET`<br>**Parametri**: `idArtist=${elementId}`, `listIds=${resultStr}`<br>**Descrizione**: Ottiene la lista degli album di un artista. |
+| **Name**: getSingles<br>**Endpoint**: [`type=artist&method=getSingles&idArtist=${elementId}&listIds=${resultStr}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=artist&method=getSingles&idArtist=6&listIds=)<br>**Type**: `GET`<br>**Parametri**: `idArtist=${elementId}`, `listIds=${resultStr}`<br>**Descrizione**: Ottiene la lista dei singoli di un artista. |
 
 
 
