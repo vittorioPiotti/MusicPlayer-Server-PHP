@@ -12,6 +12,7 @@ Link al Client Web di Music Player: [(link)](https://github.com/vittorioPiotti/M
 
 ### Lista API:
 
+<div id="api-home"></div>
 | API HOME |
 |----------|
 | **Name**: getSearchedArtists<br>**Endpoint**: [`type=home&method=getSearchedArtists&searchText=${encodeURIComponent(resultREGEXP)}&listIds=${encodeURIComponent(resultStr)}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=home&method=getSearchedArtists&searchText=mirage&listIds=)<br>**Type**: `GET`<br>**Parametri**: `searchText=${encodeURIComponent(resultREGEXP)}`, `listIds=${encodeURIComponent(resultStr)}`<br>**Descrizione**: Cerca artisti in base al testo specificato. |
@@ -22,14 +23,14 @@ Link al Client Web di Music Player: [(link)](https://github.com/vittorioPiotti/M
 
 
 
-
+<div id="api-music"></div>
 | API MUSIC | 
 |-----------| 
 | **Name**: getMusic<br>**Endpoint**: [`type=music&method=getMusic&idMusic=${elementId}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=music&method=getMusic&idMusic=3)<br>**Type**: `GET`<br>**Parametri**: `idMusic=${elementId}`<br>**Descrizione**: Ottiene i dati di una specifica canzone. |
 | **Name**: getMusicMin<br>**Endpoint**: [`type=music&method=getMusicMin&idMusic=${elementId}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=music&method=getMusicMin&idMusic=2)<br>**Type**: `GET`<br>**Parametri**: `idMusic=${elementId}`<br>**Descrizione**: Ottiene dati ridotti di una specifica canzone. |
 
 
-
+<div id="api-artist"></div>
 | API ARTIST | 
 |------------| 
 | **Name**: getAllArtistData<br>**Endpoint**: [`type=artist&method=getAllArtistData&idArtist=${elementId}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=artist&method=getAllArtistData&idArtist=12)<br>**Type**: `GET`<br>**Parametri**: `idArtist=${elementId}`<br>**Descrizione**: Ottiene tutti i dati di un artista specifico. |
