@@ -17,9 +17,10 @@ Link al Client Web di Music Player: [(link)](https://github.com/vittorioPiotti/M
 - [API Music](#api-music)
 - [API Artist](#api-artist)
 
+
 ### Lista API:
 
-<div id="api-home"></div>
+#### API Home
 
 | API HOME |
 |----------|
@@ -31,15 +32,15 @@ Link al Client Web di Music Player: [(link)](https://github.com/vittorioPiotti/M
 
 
 
-<div id="api-music"></div>
+#### API Music
 
 | API MUSIC | 
 |-----------| 
 | **Name**: getMusic<br>**Endpoint**: [`type=music&method=getMusic&idMusic=${elementId}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=music&method=getMusic&idMusic=3)<br>**Type**: `GET`<br>**Parametri**: `idMusic=${elementId}`<br>**Descrizione**: Ottiene i dati di una specifica canzone. |
 | **Name**: getMusicMin<br>**Endpoint**: [`type=music&method=getMusicMin&idMusic=${elementId}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=music&method=getMusicMin&idMusic=2)<br>**Type**: `GET`<br>**Parametri**: `idMusic=${elementId}`<br>**Descrizione**: Ottiene dati ridotti di una specifica canzone. |
 
+#### API Artist
 
-<div id="api-artist"></div>
 
 | API ARTIST | 
 |------------| 
@@ -47,7 +48,6 @@ Link al Client Web di Music Player: [(link)](https://github.com/vittorioPiotti/M
 | **Name**: getArtist<br>**Endpoint**: [`type=artist&method=getArtist&idArtist=${elementId}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=artist&method=getArtist&idArtist=1)<br>**Type**: `GET`<br>**Parametri**: `idArtist=${elementId}`<br>**Descrizione**: Ottiene i dati di un artista specifico. |
 | **Name**: getAlbums<br>**Endpoint**: [`type=artist&method=getAlbums&idArtist=${elementId}&listIds=${resultStr}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=artist&method=getAlbums&idArtist=12&listIds=)<br>**Type**: `GET`<br>**Parametri**: `idArtist=${elementId}`, `listIds=${resultStr}`<br>**Descrizione**: Ottiene la lista degli album di un artista. |
 | **Name**: getSingles<br>**Endpoint**: [`type=artist&method=getSingles&idArtist=${elementId}&listIds=${resultStr}`](https://vittoriopiotti.altervista.org/MusicPlayer/Server/index.php?type=artist&method=getSingles&idArtist=6&listIds=)<br>**Type**: `GET`<br>**Parametri**: `idArtist=${elementId}`, `listIds=${resultStr}`<br>**Descrizione**: Ottiene la lista dei singoli di un artista. |
-
 
 
 ### Albero di Path
