@@ -7,6 +7,11 @@ Link al Client Web di Music Player: [(link)](https://github.com/vittorioPiotti/M
 
 ## API
 
+### Indice API:
+
+  - API Home
+  - API Music
+  - API Artist
 
 | API HOME |
 |----------|
