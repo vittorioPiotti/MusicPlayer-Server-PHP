@@ -1,6 +1,6 @@
 # Music-Player-Server
 
-Server PHP del Client Web di Music Player
+Server sviluppato per la versione `v.7.3` di PHP per Client Web di Music Player
 
 Link al Client Web di Music Player: [(link)](https://github.com/vittorioPiotti/Music-Player-Web)
 
