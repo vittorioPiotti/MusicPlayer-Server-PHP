@@ -21,6 +21,30 @@ Link al Client Web di Music Player: [(link)](https://github.com/vittorioPiotti/M
 | **getSearchedMusics**      | `type=home&method=getSearchedMusics&searchText=${encodeURIComponent(resultREGEXP)}&listIds=${encodeURIComponent(resultStr)}` | `searchText=${encodeURIComponent(resultREGEXP)}`, `listIds=${encodeURIComponent(resultStr)}` | Cerca canzoni in base al testo specificato.                                                                        |
 | **getAllHomeData**         | `type=home&method=getAllHomeData`                           | Nessun parametro                                          | Ottiene tutti i dati necessari per la schermata iniziale.                  
 
+### Albero di Path
+
+```bash
+$ tree
+.
+├── Server
+│   ├── src
+│   │   ├── controllers
+│   │   │   ├── CArtist.php
+│   │   │   ├── CHome.php
+│   │   │   └── CMusic.php
+│   │   ├── foundations
+│   │   │   ├── FAPI.php
+│   │   │   └── FDB.php
+│   │   ├── models
+│   │   │   ├── MArtist.php
+│   │   │   ├── MHome.php
+│   │   │   └── MMusic.php
+│   │   └── autoloader.php
+│   ├── index.php
+└── index.php
+```
+
+
 ## Licenze
 | Componente         | Versione  | Copyright                         | Licenza                                                       |
 |--------------------|-----------|-----------------------------------|---------------------------------------------------------------|
