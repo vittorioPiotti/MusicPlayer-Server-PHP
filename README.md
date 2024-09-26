@@ -96,7 +96,7 @@ $ tree
 
 | Componente         | Versione  | Copyright                         | Licenza                                                       |
 |--------------------|-----------|-----------------------------------|---------------------------------------------------------------|
-| [DijkstraSolver](https://github.com/vittorioPiotti/MusicPlayer-Server-PHP) | [v1.0.0](https://github.com/vittorioPiotti/MusicPlayer-Server-PHP/releases/tag/v1.0.0)    | 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/)            | [GPL-3.0 ](https://github.com/vittorioPiotti/Dijkstra-Bootstrap/blob/main/LICENSE.md) |
+| [DijkstraSolver](https://github.com/vittorioPiotti/MusicPlayer-Server-PHP) | [v1.0.0](https://github.com/vittorioPiotti/MusicPlayer-Server-PHP/releases/tag/v1.0.0)    | 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/)            | [GPL-3.0 ](https://github.com/vittorioPiotti/MusicPlayer-Server-PHP/blob/main/LICENSE.md) |
 
 Canzoni generate usando **Suno AI** [(Termini di utilizo)](https://suno.com/terms)
 
