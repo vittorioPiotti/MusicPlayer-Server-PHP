@@ -94,7 +94,16 @@ $ tree
 > Gli audio generati da **Suno AI** [(Termini di utilizo)](https://suno.com/terms) necessitano dell'acquisto di una licenza separata per l'uso commerciale.
 
 
+> [!NOTE]
+> Canzoni generate usando **Suno AI** [(Termini di utilizo)](https://suno.com/terms)
+> 
+> Immagini generate usando **OpenArt** [(Termini di utilizzo)](https://openart.ai/terms)
+>
+
+
+
 ### Music Player Server
+
 
 
 **Copyright** 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/) 
