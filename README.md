@@ -101,7 +101,7 @@ $ tree
 
 **Version** [v1.0.0](https://github.com/vittorioPiotti/MusicPlayer-Server-PHP/releases/tag/v1.0.0)
 
-**License** [GPL-3.0](ttps://github.com/vittorioPiotti/MusicPlayer-Server-PHP/blob/main/LICENSE.md)
+**License** [GPL-3.0](https://github.com/vittorioPiotti/MusicPlayer-Server-PHP/blob/main/LICENSE.md)
 
 
 
