@@ -94,11 +94,14 @@ $ tree
 > Gli audio generati da **Suno AI** [(Termini di utilizo)](https://suno.com/terms) necessitano dell'acquisto di una licenza separata per l'uso commerciale.
 
 
-| Componente         | Versione  | Copyright                         | Licenza                                                       |
-|--------------------|-----------|-----------------------------------|---------------------------------------------------------------|
-| [DijkstraSolver](https://github.com/vittorioPiotti/MusicPlayer-Server-PHP) | [v1.0.0](https://github.com/vittorioPiotti/MusicPlayer-Server-PHP/releases/tag/v1.0.0)    | 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/)            | [GPL-3.0 ](https://github.com/vittorioPiotti/MusicPlayer-Server-PHP/blob/main/LICENSE.md) |
+### Music Player Server
 
-Canzoni generate usando **Suno AI** [(Termini di utilizo)](https://suno.com/terms)
 
-Immagini generate usando **OpenArt** [(Termini di utilizzo)](https://openart.ai/terms)
+**Copyright** 2024 Vittorio Piotti [(GitHub page)](https://github.com/vittorioPiotti) [(Personal page)](https://vittoriopiotti.altervista.org/) 
+
+**Version** [v1.0.0](https://github.com/vittorioPiotti/MusicPlayer-Server-PHP/releases/tag/v1.0.0)
+
+**License** [GPL-3.0](ttps://github.com/vittorioPiotti/MusicPlayer-Server-PHP/blob/main/LICENSE.md)
+
+
 
