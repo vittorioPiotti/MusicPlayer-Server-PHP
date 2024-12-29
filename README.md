@@ -5,10 +5,7 @@ Server sviluppato per la versione `v.7.3` di PHP per Client Web di Music Player
 Link al Client Web di Music Player: [(link)](https://github.com/vittorioPiotti/Music-Player-Web)
 
 
-#### Support Me
-
-
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/P5P012BC8U)
+---
 
 ## Indice :
  - [API](#api)
